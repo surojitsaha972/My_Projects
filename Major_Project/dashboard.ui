@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dashBoard</class>
+ <widget class="QMainWindow" name="dashBoard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1368</width>
+    <height>878</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1368</width>
+    <height>878</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1368</width>
+    <height>878</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dashboard</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:rgb(183, 246, 255)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item alignment="Qt::AlignHCenter">
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">background:rgb(183, 246, 255)</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>80</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Calibri</family>
+           <pointsize>22</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background:rgb(183, 246, 255)
+</string>
+         </property>
+         <property name="text">
+          <string>   Dashboard</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="b1">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background:light silver</string>
+         </property>
+         <property name="text">
+          <string>Add customer</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="b2">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background:light silver
+</string>
+         </property>
+         <property name="text">
+          <string>Add add agent</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="b3">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background:light silver</string>
+         </property>
+         <property name="text">
+          <string>Loan Request</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="b4">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background:light silver</string>
+         </property>
+         <property name="text">
+          <string>List of Loan requests</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1368</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAdd_Items">
+    <property name="title">
+     <string>ADD ITEMS</string>
+    </property>
+    <addaction name="actionSubject"/>
+    <addaction name="actionCourse"/>
+   </widget>
+   <widget class="QMenu" name="menuReport">
+    <property name="title">
+     <string>REPORT</string>
+    </property>
+    <widget class="QMenu" name="menuReturn">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="title">
+      <string>APPROVE DETAILS</string>
+     </property>
+     <addaction name="actionAll_return"/>
+     <addaction name="actionMonthly_return"/>
+    </widget>
+    <addaction name="menuReturn"/>
+    <addaction name="actionCUSTOMER_DETAILS"/>
+    <addaction name="actionAGENT_DETAILS"/>
+    <addaction name="actionALL_DETAILS"/>
+   </widget>
+   <widget class="QMenu" name="menuSettings">
+    <property name="title">
+     <string>SETTINGS</string>
+    </property>
+    <addaction name="actionChange_Password"/>
+   </widget>
+   <widget class="QMenu" name="menuSEARCHING">
+    <property name="title">
+     <string>SEARCHING</string>
+    </property>
+    <addaction name="actionCUSTOMER_SEARCHING"/>
+    <addaction name="actionAGENT_SEARCHING"/>
+   </widget>
+   <widget class="QMenu" name="menuVIEW">
+    <property name="title">
+     <string>VIEW</string>
+    </property>
+    <addaction name="actionBANK_DETAILS_2"/>
+    <addaction name="actionEMI_CALCULATOR"/>
+   </widget>
+   <addaction name="menuAdd_Items"/>
+   <addaction name="menuVIEW"/>
+   <addaction name="menuReport"/>
+   <addaction name="menuSEARCHING"/>
+   <addaction name="menuSettings"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSubject">
+   <property name="text">
+    <string>ADD BANK NAME</string>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionCourse">
+   <property name="text">
+    <string>ADD LOAN TYPE</string>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionDepartment">
+   <property name="text">
+    <string>Department</string>
+   </property>
+  </action>
+  <action name="actionAdd">
+   <property name="text">
+    <string>LOAN REQUEST</string>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionPurchase">
+   <property name="text">
+    <string>Purchase</string>
+   </property>
+  </action>
+  <action name="actionAll_purchase">
+   <property name="text">
+    <string>All purchase</string>
+   </property>
+  </action>
+  <action name="actionMonthly_purchase">
+   <property name="text">
+    <string>Monthly purchase</string>
+   </property>
+  </action>
+  <action name="actionAll_issue">
+   <property name="text">
+    <string>All issue</string>
+   </property>
+  </action>
+  <action name="actionMonthly_issue">
+   <property name="text">
+    <string>Monthly issue</string>
+   </property>
+  </action>
+  <action name="actionAll_return">
+   <property name="text">
+    <string>APPROVE DETAILS </string>
+   </property>
+  </action>
+  <action name="actionMonthly_return">
+   <property name="text">
+    <string>MONTHLY DETAILS</string>
+   </property>
+  </action>
+  <action name="actionAll_fine">
+   <property name="text">
+    <string>All fine</string>
+   </property>
+  </action>
+  <action name="actionMonthly_fine">
+   <property name="text">
+    <string>Monthly fine</string>
+   </property>
+  </action>
+  <action name="actionStudent_Report">
+   <property name="text">
+    <string>Student Report</string>
+   </property>
+  </action>
+  <action name="actionBook_Stock">
+   <property name="text">
+    <string>Book Stock</string>
+   </property>
+  </action>
+  <action name="actionChange_Password">
+   <property name="text">
+    <string>CHANGE PASSWORD</string>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionProfile">
+   <property name="text">
+    <string>Profile</string>
+   </property>
+  </action>
+  <action name="actionLOAN_REQUEST">
+   <property name="text">
+    <string>LOAN REQUEST</string>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionLOAN_REQUEST_PAGE">
+   <property name="text">
+    <string>LOAN REQUEST PAGE</string>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionCUSTOMER_DETAILS">
+   <property name="text">
+    <string>CUSTOMER DETAILS</string>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionAGENT_DETAILS">
+   <property name="text">
+    <string>AGENT DETAILS</string>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionCUSTOMER_SEARCHING">
+   <property name="text">
+    <string>CUSTOMER SEARCHING</string>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionAGENT_SEARCHING">
+   <property name="text">
+    <string>AGENT SEARCHING</string>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionALL_DETAILS">
+   <property name="text">
+    <string>ALL DETAILS</string>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionBANK_DETAILS">
+   <property name="text">
+    <string>BANK DETAILS</string>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionBANK_DETAILS_2">
+   <property name="text">
+    <string>BANK DETAILS</string>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionEMI_CALCULATOR">
+   <property name="text">
+    <string>EMI CALCULATOR</string>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

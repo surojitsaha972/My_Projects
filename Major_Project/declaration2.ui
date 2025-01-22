@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dec</class>
+ <widget class="QMainWindow" name="dec">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1387</width>
+    <height>878</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1387</width>
+    <height>878</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1387</width>
+    <height>878</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Declaration Page</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="l1">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>30</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(211, 207, 255)</string>
+    </property>
+    <property name="text">
+     <string>DECLARATION FORM</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>140</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>I</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l3">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>135</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>son/daughter of</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="t2">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>130</y>
+      <width>521</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l5">
+    <property name="geometry">
+     <rect>
+      <x>1130</x>
+      <y>140</y>
+      <width>171</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string> resident of</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="t1">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>131</y>
+      <width>341</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="t1_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>180</y>
+      <width>881</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l2_2">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>180</y>
+      <width>381</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>I willing to take loan under this conditions.</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l2_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>500</y>
+      <width>1251</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(255, 78, 81)</string>
+    </property>
+    <property name="text">
+     <string>I do solemnly and sincerely declare and state in signing this document that I:
+
+
+   *Acknowledge that I have read, understood, and accepted the terms and conditions of the Urgent Money Receive loans electronically;
+   * Agree to the electronic storage of my personal information and the Terms and Conditions of the Urgent Money Receive loans 
+       which I accepted;
+   * Acknowledge that my application does not guarantee me acceptance for a specific loan type;
+   Agree to pay the insurance premium associated with my loan in the events it is approved and I meet the requirements for same;</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>730</y>
+      <width>1241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>  I hereby declare that whatever has been stated above is true to the best of my knowledge, correct and nothing marerial has been concealed
+  there form.</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l2_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>230</y>
+      <width>1381</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(242, 255, 230)</string>
+    </property>
+    <property name="text">
+     <string>1.Job ID: This is typically a unique identifier assigned to your job or employment status.
+ It's often used by lenders to verify your employment details and stability.
+2.Credit score: 720+ This indicates a good credit score.
+ Credit scores range from 300 to 850 in India, with higher scores indicating lower credit risk.
+ A score of 720 or higher is generally considered good and can help you qualify for loans at favorable terms.
+3.Annual income: 6 lakh This is your yearly income before taxes and other deductions.
+ Lenders use this information to assess your ability to repay a loan. 
+A higher income can improve your chances of loan approval.
+4.Debt-to-income ratio: More than 40% Your debt-to-income ratio is the percentage of your monthly income that goes toward paying debts.
+A ratio of more than 40% indicates that a significant portion of your income is already allocated to debt repayment, 
+which could affect your ability to take on additional debt.</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>780</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Agree</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1387</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

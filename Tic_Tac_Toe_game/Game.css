@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(127, 245, 245);
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game{
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 0.7rem;
+    font-size: 8vmin;
+    background-color: bisque;
+    color: rgb(255, 0, 0);
+}
+
+#reset_but{
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: violet;
+    border-radius: 0.5rem;
+}
+
+.newbut{
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: violet;
+    border-radius: 0.5rem;
+}
+
+.msg{
+    font-size: 7.5vmin;
+
+}
+
+.newcon{
+    height: 35vmin;
+}
+
+.hide{
+    display: none;
+}
