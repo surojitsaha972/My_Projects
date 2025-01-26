@@ -6,16 +6,20 @@ body{
     background-color: rgb(0, 0, 0);
 }
 
+.main{
+    width: 1300px;
+    height: 1000px;
+}
+
 .navbar{
-    /* position: fixed; */
     background-color: rgb(247, 184, 108);
     height: 60px;
     width: 100%;
     display: flex;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
 }
 
-.barlogo{
+/* .barlogo{
     align-self: center;
     height: 35px;
     width: 35px;
@@ -27,16 +31,15 @@ body{
     height: 30px;
     width: 30px;
     justify-self: center;
-    /* margin-left:3px ; */
     background-size: cover;
 }
 
 .barlogo:hover{
     border:1.5px solid black
-}
+} */
 
 .searchbar{
-    /* position: fixed; */
+    /* position: absolute; */
     display: flex;
     align-content: center;
     margin-top: 15px;
@@ -46,25 +49,27 @@ body{
 .search{
     height: 30px;
     width: 400px;
-    border: 1.5px black solid;
+    border: 2px black solid;
     border-radius: 10px;
-    font-size:large;
+    font-size:16px;
 }
 
 .searchlogo{
     background-image: url("search.svg");
     height: 25px;
     width: 25px;
-    margin-left: 2px;
+    margin-left: 3px;
+    margin-top : 2.5px;
+    cursor: pointer;
 }
 
 .searchlogo:hover{
-    border:2px solid black
+    border:1.5px solid black
 }
 
 .user{
     display: flex;
-    height: 30px;
+    height: 35px;
     align-items: center;
     margin-left: 20%;
     margin-top: 15px;
@@ -74,31 +79,31 @@ body{
 .userlogo{
     background-image: url("user-solid.svg");
     background-size: cover;
-    height: 25px;
-    width: 25px;
+    height: 18px;
+    width: 18px;
 }
 
 .loginpara{
     margin-left: 5px;
-    font-size: larger;
+    font-size: 17px;
+}
+
+.user:hover{
+    border:2px solid black
 }
 
 .content{
-    /* position:static; */
+    position:static;
     height: 1000px;
-    /* width: 100%; */
-    /* margin-top: 60px; */
+    width: 100%;
     justify-items: center;
     background-image: linear-gradient(rgb(244, 163, 70) 10%,rgba(247, 20, 20, 0.875) 90%);
 }
 
 .bio{
-    /* background-color: rgb(239, 187, 120); */
+    border:0.5px solid rgb(239, 187, 120);
     height: 250px;
     width: 700px;
-    /* margin-left: 12%; */
-    /* margin-top: 12%; */
-    /* justify-content: center; */
     border: 1px transparent;
 } 
 
@@ -111,23 +116,29 @@ body{
     height: 200px;
     width: 500px;
     margin-left: 15%;
-    margin-top:2%;
+    margin-top:3%;
     /* align-items: center; */
     /* justify-content: center; */
+    justify-items: center;
+    /* align-content: center; */
 }
 
 .menu{
-    height: 700px;
+    height: 725px;
     width: 800px;
     background-color: rgb(247, 191, 131);
-    margin-top: 10px;
-    border: 1.5px solid black;
-    /* display: flex; */
+    margin-top: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.alphaorder{
+    height: 130px;
+    width: 100%;
 }
 
 .alphaorder ul{
     margin: 0;
-    padding: 0;
+    padding: 3px;
     display: flex;
     justify-content: flex-start;
     justify-content: center;
@@ -154,14 +165,10 @@ body{
 }
 
 .menulist{
-    height: 558px;
+    height: 580px;
     margin-top: 5px;
-    font-weight: 700;
-    color: #000;
-    padding: 5px 15px 2px;
-    background: rgb(247, 191, 131);
-    font-family: 'Open Sans', sans-serif;
-    /* border: 2.5px solid black; */
+    padding:0 5px 0;
+    background: rgb(247, 187, 127);
 }
 
 .alpha{
@@ -169,14 +176,36 @@ body{
     background: #fcab41eb;
     font-weight: 700;
     color: #000;
-    padding: 5px 15px 2px;
+    padding: 4px 12px;
     font-family: 'Open Sans', sans-serif;
-    border: 1.5px solid black;
+    border: 1.6px solid black;
 }
 
 
 .listalpha{
     background-color: rgb(252, 184, 112);
-    height: 500px;
-    border: 0.5px solid black;
+    height: 550px;
+    margin: 7px 0 10px 0;
+    font-weight: 510;
+    padding: 0px 10px;
+    border: 1px solid black;
+}
+
+.alpha .listalpha  li{
+    margin:0 0 2px 0;
+}
+
+.alpha .listalpha ul li{
+    background-color: rgb(250, 145, 33);
+    padding: 5px 10px;
+    margin-right: 5%;
+    line-height: 20px;
+    display: block;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 18px;    
+}
+.alpha .listalpha  li:hover{
+    background-color: rgb(243, 128, 6);
+    font-weight: 550;
 }
