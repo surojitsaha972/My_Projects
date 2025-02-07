@@ -20,7 +20,7 @@ body{
     border: 3px solid rgb(25, 243, 232);
 }
 
-.login{
+/* .login{
     position: absolute;
     top: 0;
     width: 50%;
@@ -39,9 +39,9 @@ body{
     font-size: 33px;
     color: bisque;
     text-align: center;
-}
+} */
 
-.login .input-box{
+/* .login .input-box{
     position: relative;
     height: 50px;
     width: 100%;
@@ -77,8 +77,8 @@ body{
 .input-box input:focus~label,
 .input-box input:valid{
     top: -6px;
-}
-
+} */
+/* 
 
 .btn{
     position: relative;
@@ -108,4 +108,4 @@ body{
 .register-link:hover{
     text-decoration: underline;
     color: rgb(124, 29, 201);
-}
+} */
