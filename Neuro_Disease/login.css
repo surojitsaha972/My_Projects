@@ -10,17 +10,36 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    /* background: url(Neurological\ dissease\ pic2.jpg) no-repeat; */
     background: url(Neurological\ dissease\ pic2.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.mainlogin{
-    /* position: relative; */
+    /* REGISTER */
+
+.form-box{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 512px;
+    height: 420px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.register-box{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    transition: .5s ease;
+
+}
+
+    /* LOGIN */
+
+/* .mainlogin{
     width: 450px;
     background-color: transparent;
-    /* height: 450px; */
     color: rgb(255, 255, 255);
     border: transparent;
     border-radius: 13px;
@@ -30,7 +49,6 @@ body{
 
 .mainlogin h2{
     font-size: 35px;
-    /* color: bisque; */
     text-align: center;
 } 
 
@@ -38,7 +56,6 @@ body{
     position: relative;
     height: 50px;
     width: 100%;
-    /* background-color: aqua; */
     margin: 28px 0;
 }
 
@@ -48,20 +65,15 @@ body{
     background: transparent;
     border: none;
     outline: none;
+    color: white;
     border: 2px solid rgb(251, 251, 255);
     border-radius: 30px;
     padding: 20px 35px 20px 20px;
-    /* transition: .5s; */
     font-size: 16px;
 }
 .input-box input::placeholder{
     color: rgb(255, 254, 254);
 }
-
-/* .input-box input:focus,
-.input-box input:valid{
-    border-bottom-color: aquamarine;
-} */
 
 .input-box img{
     position: absolute;
@@ -106,22 +118,4 @@ body{
     color: rgb(244, 244, 244);
     font-weight: 600;
     }
-    
-.mainlogin .buttun-box{
-    width: 220px;
-    margin: 35px auto;
-    position: relative;
-    box-shadow: 0 0 20px 9px;
-    border-radius: 30px;
-}
-
-.tog-btn{
-    padding: 10px 30px;
-    cursor: pointer;
-    background: transparent;
-    color: white;
-    font-weight: 600;
-    border: 0;
-    outline: none;
-    position: relative;
-}
+     */

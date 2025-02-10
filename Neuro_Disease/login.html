@@ -3,36 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Login Page</title>
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <div class="mainlogin">
-        <h2><b>Login</b></h2>
-        <form action="#">
-            <div class="input-box">
-                <input type="text"  id="" placeholder="Username" required>
-                <img src="user-solid.svg" class="user" style="height: 15px;">
-                <!-- <label for="">User Name</label> -->
+    <div class="form-box">
+        <div class="register-box" id="register">
+            <div class="top">
+                <span>Have an Account? <a href="#" onclick="login()">Login</a></span>
+                <h2><b>Sign Up</b></h2>
             </div>
-            <div class="input-box">
-                <input type="password" placeholder="Password" required>
-                <img src="lock-solid.svg" class="pass" style="height: 15px;">
-                <!-- <label for="">Password</label> -->
-            </div>
-            <div class="remember">
-                <label for=""><input type="checkbox">Remember Me</label>
-                <a href="#">Forget Password</a>
-            </div>
-            <button type="submit" class="btn">Login</button>
-            <div class="button-box">
-                <div id="button"></div>
-                <button type="button" class="tog-btn">Log In</button>
-                <button type="button" class="tog-btn">Register</button>
-            </div>
-        </form>
-    </div>
+            <div class="two-forms">
+                <div class="input-box">
+                    <input type="text" class="input-text" placeholder="Firstname">
+                    <i class="bx bxs-user"></i>
+                </div>
+                <div class="input-box">
+                    <input type="text" class="input-text" placeholder="Lastname">
+                    <i class="bx bxs-user"></i>
+                </div>
+                <div class="input-box">
+                    <input type="email" class="input-text" placeholder="Email">
+                    <i class="bx bxs-envelope"></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" class="input-text" placeholder="Password">
+                    <i class="bx bxs-lock-alt"></i>
+                </div>
+                <div class="input-box">
+                    <input type="submit" class="submit" value="Register">
+                </div>
+                <div class="checkbox">
+                    <div class="reg-check">
+                        <input type="checkbox" name="" id="register-check">
+                        <label for="register-check">Remember Me</label>
+                    </div>
+                </div>
 
+            </div>
+            <!-- <form action="#">
+                <div class="input-box">
+                    <input type="text"  id="" placeholder="Username" required>
+                    <img src="user-solid.svg" class="user" style="height: 15px;">
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                    <img src="lock-solid.svg" class="pass" style="height: 15px;">
+                </div>
+                <div class="remember">
+                    <label for=""><input type="checkbox">Remember Me</label>
+                    <a href="#">Forget Password</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form> -->
+        </div>
+    
+    </div>
+    
     <script src="sunny.js"></script>
 </body>
 </html>
