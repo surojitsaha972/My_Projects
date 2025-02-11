@@ -16,20 +16,22 @@ body{
     background-size: cover;
 }
 
-    /* REGISTER */
+/*----------- REGISTER SLIDE-----------*/
 
 .form-box{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
     width: 512px;
     height: 420px;
-    overflow: hidden;
     z-index: 2;
 }
 
 .register-box{
+    position: absolute;
+    right: -500px;
     width: 500px;
     display: flex;
     flex-direction: column;
@@ -73,94 +75,84 @@ header{
     border-radius: 20px;
     outline: none;
     transition: .2s ease;
+    cursor: pointer;
+}
+
+.input-text:hover, .input-text:focus-visible{
+    background-color: rgba(255,255,255,0.3);
 }
 
 ::-webkit-input-placeholder{
     color: white;
-
 }
 
-    /* LOGIN */
-
-/* .mainlogin{
-    width: 450px;
-    background-color: transparent;
-    color: rgb(255, 255, 255);
-    border: transparent;
-    border-radius: 13px;
-    padding: 30px 40px;
-}
-
-
-.mainlogin h2{
-    font-size: 35px;
-    text-align: center;
-} 
-
-.mainlogin .input-box{
+.input-box i{
     position: relative;
-    height: 50px;
-    width: 100%;
-    margin: 28px 0;
+    color: rgb(255, 255, 255);
+    top: -33px;
+    left: 17px;
 }
 
-.input-box input{
-    height: 100%;
+.submit{
+    height: 40px;
     width: 100%;
-    background: transparent;
-    border: none;
-    outline: none;
-    color: white;
-    border: 2px solid rgb(251, 251, 255);
-    border-radius: 30px;
-    padding: 20px 35px 20px 20px;
+    color: rgb(253, 248, 248);
+    font-weight: 600;
     font-size: 16px;
-}
-.input-box input::placeholder{
-    color: rgb(255, 254, 254);
-}
-
-.input-box img{
-    position: absolute;
-    right: 13px;
-    top: 30%;
-    transform: translate(-50%);
-    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    background: rgba(252, 245, 245, 0.3);
+    cursor: pointer;
+    transition: .1s ease-in-out;
 }
 
-.mainlogin .remember{
+.submit:hover{
+    background: rgba(255,255,255,0.5);
+}
+
+.checkbox{
     display: flex;
+    color: white;
+    font-size: small;
+    margin-top: 10px;
     justify-content: space-between;
-    font-size: 14px;
-    margin: -15px 0 15px;
 }
 
-.remember label input{
-    accent-color: rgb(255, 255, 255);
-    margin-right: 2px;
+/*------------- LOGIN SLIDE ---------*/
+
+.login-box{
+    position: absolute;
+    left: 5px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    transition: .5s ease-in-out;
 }
 
-.remember a{
-    color: aliceblue;
+.forget .forget-pass{
+    color: white;
     text-decoration: none;
-    font-weight: 550;
+    font-size: small;
+    font-weight: 500;
 }
 
-.remember a:hover{
+.forget .forget-pass:hover{
     text-decoration: underline;
 }
 
-.mainlogin .btn{
-    position: relative;
-    width: 100%;
-    height: 40px;
-    background: transparent;
-    border: 2px solid rgb(255, 255, 255);
-    outline: none;
-    border-radius: 40px;
-    font-size: 17px;
-    cursor: pointer;
-    color: rgb(244, 244, 244);
-    font-weight: 600;
+
+@media only screen and (max-width:540px){
+    .form-box{
+        min-height: 100vh;
+        height: 500px;
+        width: 100%;
     }
-     */
+    .register-box, .login-box{
+        width: 100%;
+        padding: 0 25px;
+    }
+    .register-box .two-form{
+        flex-direction: column;
+        gap: 0;
+    }
+}
