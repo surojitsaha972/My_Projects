@@ -3,6 +3,11 @@ function Loginpage(){
 }
 
 function changetab(x){
-    let txt=document.querySelector("item0")
-        
+    let txt=document.querySelectorAll("#tab0")
+    txt.forEach(txt => {
+        txt.addEventListener('click', () =>{
+            document.querySelector('.active')?.classList.toggle('active')
+            txt.classList.add('active');
+        })
+    })
 }
