@@ -154,6 +154,10 @@ body{
     font-weight: 500;
     border-radius: 7px;
 }
+.alphaorder li a{
+    text-decoration: none;
+    color: #000;
+}
 
 .alphaorder ul li:hover{
     cursor: pointer;
@@ -184,7 +188,7 @@ body{
     display: block;
 }
 
-.active ul{
+.alpha ul{
     display: block;
     padding: 0;
     margin: 0;
@@ -193,7 +197,7 @@ body{
 
 }
 
-.active li{
+.alpha li{
     background-color: rgb(249, 151, 47);
     padding: 6px 20px;
     line-height: 24px;
@@ -204,7 +208,7 @@ body{
     font-size: medium;    
 }
 
-.active li:hover{
+.alpha li:hover{
     background-color: rgb(235, 124, 4);
     color: rgb(0, 0, 0);
     font-weight: 500;
