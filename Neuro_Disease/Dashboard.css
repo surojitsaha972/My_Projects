@@ -142,7 +142,7 @@ body{
     flex-wrap: wrap;
     grid-gap: 9px;
 }
-.alphaorder li{
+.alphaorder .tab_item{
     margin-top: 3px;
     list-style: none;
     background-color: rgb(250, 131, 67);
@@ -154,12 +154,12 @@ body{
     font-weight: 500;
     border-radius: 7px;
 }
-.alphaorder li a{
+.alphaorder .tab_item a{
     text-decoration: none;
     color: #000;
 }
 
-.alphaorder ul li:hover{
+.alphaorder ul .tab_item:hover{
     cursor: pointer;
     font-weight: 600;
     background-color: rgb(249, 114, 41);
