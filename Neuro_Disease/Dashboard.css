@@ -168,7 +168,7 @@ body{
 .menulist{
     height: 400px;
     margin-top: 5px;
-    border: 1px black solid;
+    /* border: 1px black solid; */
 }
 
 .alpha{
