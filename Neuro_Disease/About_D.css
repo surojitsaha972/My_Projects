@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(254, 224, 224);
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: border-box;
+}
+
+.ALD{
+    justify-content: center;
+    align-items: center;
+    min-width: 110vh;
+}
+
+.navigator{
+    height: 60px;
+    width: 100%;
+    justify-items: center;
+    align-content: center;
+    background-color: rgb(252, 210, 210);
+}
+
+.maincolumn{
+    justify-items: center;
+    margin: 15px 70px;
+
+}
+
+.maincolumn .aboutdisease{
+    margin-top: 15px;
+    line-height: 27px;
+    width: 60%;
+    justify-self: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.maincolumn .tablecontents{
+    margin-top: 20px;
+}
+
+.tablecontents, th, td{
+    border-spacing: 10px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 0px 10px;
+
+}
+
+
