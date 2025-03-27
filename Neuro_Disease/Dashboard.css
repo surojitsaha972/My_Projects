@@ -15,7 +15,8 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     border: border-box;
-    background-image: linear-gradient(rgb(244, 163, 70) 10%,rgba(247, 20, 20, 0.875) 90%);
+    background-color: rgb(252, 205, 205);
+    /* background-image: linear-gradient(rgb(244, 163, 70) 10%,rgba(247, 20, 20, 0.875) 90%); */
 }
 
 .main{
@@ -26,7 +27,7 @@ body{
 
 .navbar{
     top: 0;
-    background-color: rgba(247, 184, 108,0.3);
+    background-color: rgba(248, 183, 183, 0.735);
     height: 60px;
     width: 100%;
     display: flex;
@@ -47,7 +48,7 @@ body{
 .search{
     height: 30px;
     width:94%;
-    background: rgba(247, 184, 108,0.8);
+    background: rgb(250, 205, 205);
     color: rgb(0, 0, 0);
     border: 2px black solid;
     border-radius: 8px;
@@ -57,15 +58,15 @@ body{
 
 .search-logo{
     width: 50px;
-    background: rgba(246, 192, 125, 0.8);
+    background: rgba(251, 210, 210, 0.8);
     border-radius: 7px;
     padding: 8px;
-    border: 1px solid black;
+    border: 1.5px solid black;
     cursor: pointer;
 }
 
 .searchbar .search-logo:hover{
-    background: rgba(247, 184, 108,0.2);
+    background: rgba(231, 160, 160, 0.935);
     border:1.5px solid black
 }
 
@@ -76,10 +77,10 @@ body{
 }
 
 .user .login-btn{
-    background: rgba(254, 210, 155, 0.8);
+    background: rgba(251, 210, 210, 0.8);
     height: 35px;
     width: 80px;
-    border: none;
+    border: 0.5px solid black;
     font-size: small;
     font-weight: 600;
     border-radius: 30px;
@@ -87,7 +88,7 @@ body{
 }
 
 .login-btn:hover{
-    background: rgba(247, 189, 118, 0.403);
+    background: rgb(231, 160, 160);
     border:1.5px solid black
 }
 
@@ -95,7 +96,7 @@ body{
     height: 820px;
     width: 100%;
     justify-items: center;
-    background-image: linear-gradient(rgb(244, 163, 70) 10%,rgba(247, 20, 20, 0.875) 90%);
+    background: rgb(252, 205, 205);
 }
 
 .bio{
@@ -103,6 +104,7 @@ body{
     height: 200px;
     width: 800px;
     border: 1px transparent;
+    /* margin-top: 30px; */
 } 
 
 .bio .heading{
@@ -125,7 +127,7 @@ body{
     top: 0;
     height: 550px;
     width: 700px;
-    background-color: rgb(247, 191, 131);
+    background-color: rgb(247, 196, 196);
     margin-top: 5px;
     border: 1px solid rgb(0, 0, 0);
 }
@@ -147,7 +149,7 @@ body{
 .alphaorder li{
     margin-top: 3px;
     list-style: none;
-    background-color: rgb(250, 131, 67);
+    background-color: rgb(235, 177, 177);
     color: black;
     padding: 7px 25px;
     min-width: 10px;
@@ -164,7 +166,7 @@ body{
 .alphaorder ul li:hover{
     cursor: pointer;
     font-weight: 600;
-    background-color: rgb(249, 114, 41);
+    background-color: rgb(237, 156, 156);
 }
 
 .menulist{
@@ -177,13 +179,14 @@ body{
     display: none;
     height: 25px;
     width: 100%;
-    background: #fcab41eb;
+    background: rgb(243, 167, 167);
     align-content: center;
     font-weight: 600;
     color: #000;
     padding: 2px 10px;
     font-family: 'Open Sans', sans-serif;
-    border: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .active{
@@ -200,7 +203,7 @@ body{
 }
 
 .alpha li{
-    background-color: rgb(249, 151, 47);
+    /* background-color: rgb(253, 175, 92); */
     padding: 6px 20px;
     line-height: 24px;
     display: block;
@@ -211,9 +214,9 @@ body{
 }
 
 .alpha li:hover{
-    background-color: rgb(235, 124, 4);
+    /* background-color: rgb(235, 124, 4); */
     color: rgb(0, 0, 0);
-    font-weight: 500;
+    font-weight: 600;
     font-size: large;
 }
 
