@@ -42,7 +42,7 @@ links.forEach(link =>{
 // ----- Disease Details ------
 
 
-// const links=document.querySelectorAll('.alphaorder ul li');
+// const links=document.querySelectorAll('.menulist .alpha');
 // links.forEach(link =>{
 //     link.addEventListener('click', function(){
 //         document.querySelectorAll('.alphaorder ul li, .alpha').forEach(el => el.classList.remove('active'));
