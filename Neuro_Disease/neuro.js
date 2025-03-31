@@ -42,15 +42,19 @@ links.forEach(link =>{
 // ----- Disease Details ------
 
 
-// const links=document.querySelectorAll('.menulist .alpha');
-// links.forEach(link =>{
-//     link.addEventListener('click', function(){
-//         document.querySelectorAll('.alphaorder ul li, .alpha').forEach(el => el.classList.remove('active'));
-//         this.classList.add('active');
-//         let targetid=this.querySelector('a').getAttribute('data-target');
-//         let targetel=document.getElementById(targetid);
-//         if(targetel){
-//             targetel.classList.add('active');
-//         }
-//     })
-// })
+function d_page(){
+    window.location.href = "About_Disease.html";
+}
+
+const tabs=document.querySelectorAll('.alpha .listalpha ul li');
+tabs.forEach(tab =>{
+    tab.addEventListener('click', function(){
+        document.querySelectorAll('.alpha .listalpha ul li, .maincolumn').forEach(el => el.classList.remove('active'));
+        this.classList.add('active');
+        let targetid=this.querySelector('a').getAttribute('data-target');
+        let targetel=document.getElementById(targetid);
+        if(targetel){
+            targetel.classList.add('active');
+        }
+    })
+})
