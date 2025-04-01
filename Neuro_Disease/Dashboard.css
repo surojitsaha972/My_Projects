@@ -21,6 +21,7 @@ body{
 .main{
     justify-content: center;
     align-items: center;
+    /* background-size: cover; */
     min-width: 110vh;
 }
 
@@ -69,7 +70,7 @@ body{
 }
 
 .searchbar .search-logo:hover{
-    background: rgb(255, 255, 255,0.5);
+    background: rgb(247, 247, 247,0.5);
 }
 
 .user{
@@ -79,7 +80,7 @@ body{
 }
 
 .user .login-btn{
-    background: rgb(251, 247, 247,0.3);
+    background: rgba(251, 247, 247, 0.45);
     height: 35px;
     width: 80px;
     border: 0.5px solid black;
@@ -95,7 +96,7 @@ body{
 }
 
 .content{
-    height: 820px;
+    /* height: 500px; */
     width: 100%;
     justify-items: center;
     background: transparent;
@@ -106,11 +107,11 @@ body{
     height: 200px;
     width: 800px;
     border: 1px transparent;
-    color: rgb(245, 232, 213);
+    color: rgb(255, 254, 253);
 } 
 
 .bio .heading{
-    margin-top: 8px;
+    margin-top: 10px;
     font-size: x-large;
     font-weight: 600;
     justify-self: center;
@@ -120,14 +121,14 @@ body{
     width: 500px; 
     line-height: 1.5;
     margin-top:5%;
-    font-size: medium;
+    font-size: 19;
     font-weight: 500;
     justify-self: center;
 }
 
 .menu{
     top: 0;
-    height: 550px;
+    height: 350px;
     width: 700px;
     background: transparent;
     margin-top: 5px;
