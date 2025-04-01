@@ -21,7 +21,6 @@ body{
 .main{
     justify-content: center;
     align-items: center;
-    /* background-size: cover; */
     min-width: 110vh;
 }
 
@@ -103,7 +102,7 @@ body{
 }
 
 .bio{
-    border:0.5px solid rgb(239, 187, 120);
+    border:0.5px solid rgb(235, 214, 187);
     height: 200px;
     width: 800px;
     border: 1px transparent;
@@ -120,14 +119,13 @@ body{
 .bio p{
     width: 500px; 
     line-height: 1.5;
-    margin-top:5%;
+    margin-top:3%;
     font-size: 19;
     font-weight: 500;
     justify-self: center;
 }
 
 .menu{
-    top: 0;
     height: 350px;
     width: 700px;
     background: transparent;
