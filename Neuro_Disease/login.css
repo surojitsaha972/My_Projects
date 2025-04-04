@@ -6,7 +6,7 @@
 }
 
 body{
-    background: url(Neurological\ dissease\ pic2.jpg) no-repeat;
+    background: url(Neurological\ dissease\ pic2.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,8 +39,9 @@ body{
 }
 
 .top span{
-    color: white;
-    font-size: small;
+    color: rgb(248, 235, 235);
+    /* font-size: small; */
+    font-size: medium;
     padding: 10px 0;
     display: flex;
     justify-content: center;
@@ -57,6 +58,7 @@ header{
     font-size: 30px;
     text-align: center;
     padding: 10px 0 30px 0;
+    font-weight: 600;
 }
 
 .two-form{
@@ -66,8 +68,8 @@ header{
 
 .input-text{
     font-size: 15px;
-    background: rgba(255,255,255,0.3);
-    color: white;
+    background:transparent;
+    color: rgb(241, 241, 241);
     height: 50px;
     width: 100%;
     padding: 0 10px 0 45px;
@@ -76,6 +78,7 @@ header{
     outline: none;
     transition: .2s ease;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .input-text:hover, .input-text:focus-visible{
@@ -98,16 +101,16 @@ header{
     width: 100%;
     color: rgb(253, 248, 248);
     font-weight: 600;
-    font-size: 16px;
+    font-size: 17px;
     border: none;
     border-radius: 30px;
-    background: rgba(252, 245, 245, 0.3);
+    background: rgba(217, 215, 215, 0.221);
     cursor: pointer;
     transition: .1s ease-in-out;
 }
 
 .submit:hover{
-    background: rgba(255,255,255,0.5);
+    background: rgba(145, 145, 145, 0.222);
 }
 
 .checkbox{

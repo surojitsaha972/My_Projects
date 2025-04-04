@@ -22,12 +22,13 @@ body{
     justify-content: center;
     align-items: center;
     min-width: 110vh;
+    background-color: rgb(0, 0, 0,0.5);
 }
 
 .navbar{
     top: 0;
     background: transparent;
-    height: 60px;
+    height: 80px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -61,7 +62,7 @@ body{
 
 .search-logo{
     width: 50px;
-    background: rgba(251, 210, 210, 0.4);
+    background: rgba(248, 248, 248, 0.5);
     border-radius: 7px;
     padding: 8px;
     border: 1.5px solid black;
@@ -69,7 +70,7 @@ body{
 }
 
 .searchbar .search-logo:hover{
-    background: rgb(247, 247, 247,0.5);
+    background: rgb(247, 247, 247,0.7);
 }
 
 .user{
@@ -79,23 +80,22 @@ body{
 }
 
 .user .login-btn{
-    background: rgba(251, 247, 247, 0.45);
+    background: rgba(251, 247, 247, 0.5);
     height: 35px;
     width: 80px;
     border: 0.5px solid black;
-    font-size: small;
+    font-size: 14px;
     font-weight: 600;
     border-radius: 30px;
     cursor: pointer;
-    border:1.5px solid black
+    border:1.5px solid black;
 }
 
 .login-btn:hover{
-    background: rgb(255, 255, 255,0.5);
+    background: rgb(255, 255, 255,0.7);
 }
 
 .content{
-    /* height: 500px; */
     width: 100%;
     justify-items: center;
     background: transparent;
@@ -103,10 +103,10 @@ body{
 
 .bio{
     border:0.5px solid rgb(235, 214, 187);
-    height: 200px;
-    width: 800px;
+    width: 100%;
     border: 1px transparent;
     color: rgb(255, 254, 253);
+    justify-content: center;
 } 
 
 .bio .heading{
@@ -117,12 +117,14 @@ body{
 }
 
 .bio p{
-    width: 500px; 
-    line-height: 1.5;
-    margin-top:3%;
-    font-size: 19;
-    font-weight: 500;
+    width: 50%; 
+    line-height: 24px;
+    margin-top:2%;
+    font-size: 18px;
+    font-weight: 600;
     justify-self: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .menu{
@@ -131,6 +133,7 @@ body{
     background: transparent;
     margin-top: 5px;
     border: 1px solid rgb(240, 239, 239);
+    border-radius: 10px;
 }
 
 .alphaorder{
@@ -150,13 +153,13 @@ body{
 .alphaorder li{
     margin-top: 3px;
     list-style: none;
-    background-color: rgb(255, 255, 255,0.4);
+    background-color: rgba(255, 255, 255, 0.4);
     color: black;
     padding: 7px 25px;
     min-width: 10px;
     text-align: center;
     align-items: center;
-    font-weight: 500;
+    font-weight: 600;
     border-radius: 7px;
 }
 .alphaorder li a{
@@ -166,8 +169,7 @@ body{
 
 .alphaorder ul li:hover{
     cursor: pointer;
-    font-weight: 600;
-    background-color: rgb(255, 255, 255.0.5);
+    background-color: rgb(255, 255, 255,0.5);
 }
 
 .menulist{
@@ -204,21 +206,19 @@ body{
 }
 
 .alpha li{
-    /* background-color: rgb(253, 175, 92); */
     padding: 6px 20px;
     line-height: 24px;
     display: block;
     font-weight: 500;
     box-sizing: border-box;
     cursor: pointer;
-    font-size: medium;  
-    color: antiquewhite;  
+    font-size: 18px;  
+    color: rgb(255, 255, 255);  
 }
 
 .alpha li:hover{
-    /* background-color: rgb(235, 124, 4); */
-    color: rgb(244, 210, 210);
+    color: rgb(255, 255, 255);
     font-weight: 600;
-    font-size: large;
+    font-size: 20px;
 }
 

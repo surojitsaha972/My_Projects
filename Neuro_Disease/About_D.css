@@ -5,28 +5,34 @@
 }
 
 body{
+    position: relative;
     margin: 0;
     padding: 0;
-    background-color: rgb(254, 224, 224);
+    background-image: url(Neurological\ dissease\ pic5.jpg);
     font-family: 'Times New Roman', Times, serif;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     border: border-box;
+    color: rgb(255, 255, 255);
 }
 
 .ALD{
     justify-content: center;
     align-items: center;
     min-width: 110vh;
+    min-height: 100%;
+    background-color: rgb(0, 0, 0,0.4);
+    height: 100%;
+    width: 100%;
 }
 
 .navigator{
-    height: 60px;
+    height: 80px;
     width: 100%;
     justify-items: center;
     align-content: center;
-    background-color: rgb(252, 210, 210);
+    background: transparent;
 }
 
 .maincolumn{
@@ -39,13 +45,17 @@ body{
     display: block;
 }
 
+.maincolumn h2{
+    color: rgb(255, 255, 255);
+}
+
 .maincolumn .aboutdisease{
     margin-top: 15px;
     line-height: 27px;
-    width: 60%;
+    width: 57%;
     justify-self: center;
     font-weight: 600;
-    font-size: 19px;
+    font-size: 18px;
     text-align: justify;
 }
 
@@ -55,14 +65,14 @@ body{
 }
 
 table, th{
-    font-size: 18px;
-    border: 1px solid black;
+    font-size: 20px;
+    border: 1px solid rgb(255, 246, 246);
     padding: 15px;
     text-align: center;
 }
 
 table, td{
-    border: 1px solid black;
+    border: 1px solid rgb(242, 242, 242);
     padding: 10px;
     text-align: left;
     vertical-align: top;
