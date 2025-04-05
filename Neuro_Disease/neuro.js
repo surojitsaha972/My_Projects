@@ -42,19 +42,14 @@ links.forEach(link =>{
 // ----- Disease Details ------
 
 
-function d_page(){
-    window.location.href = "About_Disease.html";
+function ald_page(){
+    window.location.href = "Adrenoleukodystrophy.html";
 }
 
-const tabs=document.querySelectorAll('.alpha .listalpha ul li');
-tabs.forEach(tab =>{
-    tab.addEventListener('click', function(){
-        document.querySelectorAll('.alpha .listalpha ul li, .maincolumn').forEach(el => el.classList.remove('active'));
-        this.classList.add('active');
-        let targetid=this.querySelector('a').getAttribute('data-target');
-        let targetel=document.getElementById(targetid);
-        if(targetel){
-            targetel.classList.add('active');
-        }
-    })
-})
+function ad_page(){
+    window.location.href = "Alzheimer's Disease.html";
+}
+
+// function ald_page(){
+//     window.location.href = "Adrenoleukodystrophy.html";
+// }

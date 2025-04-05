@@ -38,10 +38,6 @@ body{
 .maincolumn{
     justify-items: center;
     margin: 15px 70px;
-    display: none;
-}
-
-.active{
     display: block;
 }
 
