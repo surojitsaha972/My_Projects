@@ -50,6 +50,6 @@ function ad_page(){
     window.location.href = "Alzheimer's Disease.html";
 }
 
-// function ald_page(){
-//     window.location.href = "Adrenoleukodystrophy.html";
-// }
+function brain_page(){
+    window.location.href = "brainstroke.html";
+}
