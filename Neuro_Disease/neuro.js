@@ -53,3 +53,11 @@ function ad_page(){
 function brain_page(){
     window.location.href = "brainstroke.html";
 }
+
+function alex_page(){
+    window.location.href = "AlexanderDisease.html";
+}
+
+function als_page(){
+    window.location.href = "AmyotrophicLateralSclerosis.html";
+}
