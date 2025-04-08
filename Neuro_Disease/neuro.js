@@ -5,7 +5,7 @@ var b=document.getElementById("register");
 
 function login(){
     a.style.left="5px";
-    b.style.right="-500px";
+    b.style.right="-510px";
     a.style.opacity=1;
     b.style.opacity=0;
 }
@@ -16,6 +16,7 @@ function register(){
     a.style.opacity=0;
     b.style.opacity=1;
 }
+
 
 
 // ----- Dashboard Page ------

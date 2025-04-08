@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 110vh;
+    min-height: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -24,15 +24,15 @@ body{
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    width: 512px;
-    height: 420px;
+    width: 515px;
+    height: 470px;
     z-index: 2;
 }
 
 .register-box{
     position: absolute;
     right: -500px;
-    width: 500px;
+    width: 490px;
     display: flex;
     flex-direction: column;
     transition: .5s ease-in-out;
@@ -58,6 +58,10 @@ header{
     text-align: center;
     padding: 10px 0 30px 0;
     font-weight: 600;
+    background: linear-gradient(to right,rgb(255, 255, 255),rgb(0, 0, 255));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-color: transparent;
 }
 
 .two-form{
@@ -69,7 +73,7 @@ header{
     font-size: 15px;
     background:transparent;
     color: rgb(241, 241, 241);
-    height: 50px;
+    height: 40px;
     width: 100%;
     padding: 0 10px 0 45px;
     border: 1px solid white;
@@ -78,10 +82,11 @@ header{
     transition: .2s ease;
     cursor: pointer;
     font-weight: 600;
+    box-shadow: 0px 1px 4px;
 }
 
 .input-text:hover, .input-text:focus-visible{
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(255,255,255,0.05);
 }
 
 ::-webkit-input-placeholder{
@@ -90,22 +95,24 @@ header{
 
 .input-box i{
     position: relative;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     top: -33px;
     left: 17px;
 }
 
 .submit{
-    height: 40px;
+    height: 45px;
     width: 100%;
     color: rgb(253, 248, 248);
     font-weight: 600;
     font-size: 17px;
-    border: none;
+    border: 0.5px solid white;
     border-radius: 30px;
-    background: rgba(217, 215, 215, 0.221);
+    /* background: rgba(217, 215, 215, 0.17); */
+    background: transparent;
     cursor: pointer;
     transition: .1s ease-in-out;
+    box-shadow: 0px 3px 5px;
 }
 
 .submit:hover{
