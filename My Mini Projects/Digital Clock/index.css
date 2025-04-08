@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("nature.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clock{
+    width: 100%;
+    max-width: 330px;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 2px solid black;
+    padding: 20px;
+    color: rgb(181, 245, 245);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.29),0px 10px 20px rgba(0, 0, 0,0.8) ;
+    border-radius: 8px;
+}
+
+.clock h1{
+    font-size: 3rem;
+    font-weight: 600
+}
+
+.clock span{
+    position: relative;
+    top: -15%;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
