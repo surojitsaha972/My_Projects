@@ -17,43 +17,33 @@ function register(){
     b.style.opacity=1;
 }
 
-// const form=document.getElementById("form");
-// const username=document.getElementById("emailuser");
-// const password=document.getElementById("password");
-// const fname=document.getElementById("fname");
-// const lname=document.getElementById("lname");
-// const email=document.getElementById("email");
-// const repassword=document.getElementById("repass");
+function loginform(){
 
-// form.addEventListener('submit',(e)=>{
-//     let error=[];
-//     if (fname){
-//         error=getSignupFormErrors(fname.value,lname.value,email.value,password.value,repassword.value);
-//     }
-//     else{
-//         error=getLoginFormErroes(username.value,password.value);
-//     }
-//     if(error.length>0){
-//         e.preventDefault()
-//     }
-// })
+    // const form=document.getElementById("form");
+    var username=document.getElementById("emailuser").value;
+    var password=document.getElementById("password").value;
+    
+    if(username=="" || password==""){
+        alert("All Fields are required!")
+    }
+    else{
+        confirm("Login Successfully.")
+    }
+}
 
-// function getSignupFormErrors(firstname,lastname,email,password,repassword){
-//     let error=[];
-//     if(firstname==='' || firstname==null){
-//         error.push("First Name is required!")
-//     }
-//     if(lastname==='' || lastname==null){
-//         error.push("last Name is required!")
-//     }
-//     if(email==='' || email==null){
-//         error.push("email is required!")
-//     }
-//     if(password==='' || password==null){
-//         error.push("password is required!")
-//     }
-//     return error;
-// }
+function regform(){
+    var fname=document.getElementById("fname").value;
+    var lname=document.getElementById("lname").value;
+    var email=document.getElementById("email").value;
+    var password=document.getElementById("password").value;
+    var repassword=document.getElementById("repass").value;
+    if(fname=="" || lname=="" || email=="" || password=="" || repassword==""){
+        alert("All Fields are required!")
+    }
+    else{
+        confirm("Registered Successfully.")
+    }
+}
 
 
 
