@@ -32,13 +32,16 @@ function loginform(){
 }
 
 function regform(){
-    var fname=document.getElementById("fname").value;
-    var lname=document.getElementById("lname").value;
+    var fstname=document.getElementById("fname").value;
+    var lstname=document.getElementById("lname").value;
     var email=document.getElementById("email").value;
     var password=document.getElementById("password").value;
     var repassword=document.getElementById("repass").value;
-    if(fname=="" || lname=="" || email=="" || password=="" || repassword==""){
+    if(fstname=="" || lstname=="" || email=="" || password=="" || repassword==""){
         alert("All Fields are required!")
+    }
+    else if(password!=repassword){
+        alert("Password are not matched!")
     }
     else{
         confirm("Registered Successfully.")
