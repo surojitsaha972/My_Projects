@@ -17,6 +17,44 @@ function register(){
     b.style.opacity=1;
 }
 
+// const form=document.getElementById("form");
+// const username=document.getElementById("emailuser");
+// const password=document.getElementById("password");
+// const fname=document.getElementById("fname");
+// const lname=document.getElementById("lname");
+// const email=document.getElementById("email");
+// const repassword=document.getElementById("repass");
+
+// form.addEventListener('submit',(e)=>{
+//     let error=[];
+//     if (fname){
+//         error=getSignupFormErrors(fname.value,lname.value,email.value,password.value,repassword.value);
+//     }
+//     else{
+//         error=getLoginFormErroes(username.value,password.value);
+//     }
+//     if(error.length>0){
+//         e.preventDefault()
+//     }
+// })
+
+// function getSignupFormErrors(firstname,lastname,email,password,repassword){
+//     let error=[];
+//     if(firstname==='' || firstname==null){
+//         error.push("First Name is required!")
+//     }
+//     if(lastname==='' || lastname==null){
+//         error.push("last Name is required!")
+//     }
+//     if(email==='' || email==null){
+//         error.push("email is required!")
+//     }
+//     if(password==='' || password==null){
+//         error.push("password is required!")
+//     }
+//     return error;
+// }
+
 
 
 // ----- Dashboard Page ------

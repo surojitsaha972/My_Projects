@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <div class="form-box">
+    <div class="form-box" id="form">
         
 <!---------- LOGIN ---------->
 
@@ -18,11 +18,11 @@
                 <header>Login</header>
             </div>
             <div class="input-box">
-                <input type="email" class="input-text" placeholder="Username or Email">
+                <input type="email" id="emailuser" class="input-text" placeholder="Username or Email" required>
                 <i class="bx bxs-user"></i>
             </div>
             <div class="input-box">
-                <input type="password" class="input-text" placeholder="Password">
+                <input type="password" id="password" class="input-text" placeholder="Password" required>
                 <i class="bx bxs-lock-alt"></i>
             </div>
             <div class="input-box">
@@ -48,24 +48,24 @@
             </div>
             <div class="two-form">
                 <div class="input-box">
-                    <input type="text" class="input-text" id="fname" placeholder="Firstname">
+                    <input type="text" class="input-text" id="fname" placeholder="Firstname" required>
                     <i class="bx bxs-user"></i>
                 </div>
                 <div class="input-box">
-                    <input type="text" class="input-text" id="lname" placeholder="Lastname">
+                    <input type="text" class="input-text" id="lname" placeholder="Lastname" required>
                     <i class="bx bxs-user"></i>
                 </div>
             </div>
             <div class="input-box">
-                <input type="email" class="input-text" id="email" placeholder="Email">
+                <input type="email" class="input-text" id="email" placeholder="Email" required>
                 <i class="bx bxs-envelope"></i>
             </div>
             <div class="input-box">
-                <input type="password" class="input-text" id="pass" placeholder="Password">
+                <input type="password" class="input-text" id="password" placeholder="Password" required>
                 <i class="bx bxs-lock-alt"></i>
             </div>
             <div class="input-box">
-                <input type="password" class="input-text" id="repass" placeholder="Repeat Password">
+                <input type="password" class="input-text" id="repass" placeholder="Repeat Password" required>
                 <i class="bx bxs-lock-alt"></i>
             </div>
             <div class="input-box">
@@ -73,7 +73,7 @@
             </div>
             <div class="checkbox">
                 <div class="reg-check">
-                    <input type="checkbox" name="" id="register-check">
+                    <input type="checkbox" name="" id="register-check" required>
                     <label for="register-check">Remember Me</label>
                 </div>
             </div>
