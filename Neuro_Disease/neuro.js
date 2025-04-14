@@ -31,16 +31,23 @@ function loginform(){
 
 function regform(){
     var name=document.getElementById("fname").value;
+    var phone=document.getElementById("number").value;
     var email=document.getElementById("email").value;
     var password=document.getElementById("pass").value;
     var repassword=document.getElementById("repass").value;
 
-    if(name=="" || email=="" || password=="" || repassword==""){
+    if(name=="" || phone=="" || email=="" || password=="" || repassword==""){
         alert("All Fields are required for registration!")
     }
-    // else if(password!=repassword){
-    //     alert("Password are not matched!")
-    // }
+    else if(phone.length>10 || phone.length<10){
+        alert("No. should be of 10 digits ! Enter valid contact number!")
+    }
+    else if(isNaN(phone)){
+        alert("Only numbers are allowed ! Enter valid contact number!")
+    }
+    else if(password!=repassword){
+        alert("Password are not matched!")
+    }
     else{
         confirm("Registered Successfully.")
     }
@@ -90,4 +97,11 @@ function alex_page(){
 
 function als_page(){
     window.location.href = "AmyotrophicLateralSclerosis.html";
+}
+
+
+// ----- Home Page ------
+
+function check(){
+    window.location.href="Dashboard.html";
 }

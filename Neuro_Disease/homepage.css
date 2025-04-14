@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-image: url(Neurological\ dissease\ pic4.jpg);
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: border-box;
+    color: rgb(255, 255, 255);
+}
+
+#main{
+    height: 200px;
+    width: 200px;
+    top: 50%;
+    right: 50%;
+    border: 1px solid wheat;
+}
