@@ -18,8 +18,6 @@ function register(){
 }
 
 function loginform(){
-
-    // const form=document.getElementById("form");
     var username=document.getElementById("emailuser").value;
     var password=document.getElementById("password").value;
     
@@ -32,12 +30,12 @@ function loginform(){
 }
 
 function regform(){
-    var fstname=document.getElementById("fname").value;
-    var lstname=document.getElementById("lname").value;
+    var name=document.getElementById("fname").value;
     var email=document.getElementById("email").value;
-    var password=document.getElementById("password").value;
+    var password=document.getElementById("pass").value;
     var repassword=document.getElementById("repass").value;
-    if(fstname=="" || lstname=="" || email=="" || password==""){
+
+    if(name=="" || email=="" || password=="" || repassword==""){
         alert("All Fields are required for registration!")
     }
     // else if(password!=repassword){
