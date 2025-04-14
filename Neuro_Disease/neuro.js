@@ -24,7 +24,7 @@ function loginform(){
     var password=document.getElementById("password").value;
     
     if(username=="" || password==""){
-        alert("All Fields are required!")
+        alert("All Fields are required for signin!")
     }
     else{
         confirm("Login Successfully.")
@@ -37,12 +37,12 @@ function regform(){
     var email=document.getElementById("email").value;
     var password=document.getElementById("password").value;
     var repassword=document.getElementById("repass").value;
-    if(fstname=="" || lstname=="" || email=="" || password=="" || repassword==""){
-        alert("All Fields are required!")
+    if(fstname=="" || lstname=="" || email=="" || password==""){
+        alert("All Fields are required for registration!")
     }
-    else if(password!=repassword){
-        alert("Password are not matched!")
-    }
+    // else if(password!=repassword){
+    //     alert("Password are not matched!")
+    // }
     else{
         confirm("Registered Successfully.")
     }
