@@ -15,12 +15,29 @@ body{
     background-attachment: fixed;
     border: border-box;
     color: rgb(255, 255, 255);
+    min-height: 100vh;
 }
 
-#main{
-    height: 200px;
-    width: 200px;
-    top: 50%;
-    right: 50%;
+.main{
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
     border: 1px solid wheat;
+}
+ .main h1{
+    justify-self: center;
+    margin-top: 8%;
+    background: linear-gradient(60deg,rgb(244, 82, 82),rgb(185, 108, 108),rgb(65, 65, 246));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-color: transparent;
+}
+
+.main button{
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right,rgb(24, 22, 22),rgb(210, 210, 210));
+    box-shadow: 0px 5px 20px rgb(255, 255, 255);
+
 }
