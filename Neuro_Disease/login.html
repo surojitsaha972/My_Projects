@@ -26,11 +26,11 @@
                 <i class="bx bxs-lock-alt"></i>
             </div>
             <div class="input-box">
-                <input type="submit" class="submit" value="Sign In" onclick="loginform()">
+                <input type="submit" disabled="true" class="submit" id="logbtn" value="Sign In" onclick="loginform()">
             </div>
             <div class="checkbox">
                 <div class="reg-check">
-                    <input type="checkbox" name="" id="login-check" required>
+                    <input type="checkbox" name="" id="login-check" onclick="enablelogbtn()">
                     <label for="login-check">Remember Me</label>
                 </div>
                 <div class="forget">
@@ -67,11 +67,11 @@
                 <i class="bx bxs-lock-alt"></i>
             </div>
             <div class="input-box">
-                <input type="submit" class="submit" value="Register" onclick="regform()">
+                <input type="submit" disabled=""true class="submit" id="regbtn" value="Register" onclick="regform()">
             </div>
             <div class="checkbox">
                 <div class="reg-check">
-                    <input type="checkbox" name="" id="register-check" >
+                    <input type="checkbox" name="" id="register-check" onclick="enableregbtn()">
                     <label for="register-check">Remember Me</label>
                 </div>
             </div>

@@ -37,22 +37,43 @@ function regform(){
     var repassword=document.getElementById("repass").value;
 
     if(name=="" || phone=="" || email=="" || password=="" || repassword==""){
-        alert("All Fields are required for registration!")
+        alert("All Fields are required for registration!");
     }
     else if(phone.length>10 || phone.length<10){
-        alert("No. should be of 10 digits ! Enter valid contact number!")
+        alert("No. should be of 10 digits ! Enter valid contact number!");
     }
     else if(isNaN(phone)){
-        alert("Only numbers are allowed ! Enter valid contact number!")
+        alert("Only numbers are allowed ! Enter valid contact number!");
     }
     else if(password!=repassword){
-        alert("Password are not matched!")
+        alert("Password are not matched!");
     }
     else{
-        confirm("Registered Successfully.")
+        confirm("Registered Successfully.");
     }
 }
 
+function enablelogbtn(){
+    var check=document.getElementById("login-check");
+    var btn=document.getElementById("logbtn");
+    if(check.checked){
+        btn.removeAttribute("disabled");
+    }
+    else{
+        btn.disabled="true";
+    }
+}
+
+function enableregbtn(){
+    var check=document.getElementById("register-check");
+    var btn=document.getElementById("regbtn");
+    if(check.checked){
+        btn.removeAttribute("disabled");
+    }
+    else{
+        btn.disabled="true";
+    }
+}
 
 
 // ----- Dashboard Page ------
